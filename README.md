@@ -44,12 +44,14 @@ The remaining 73% funds hidden costs that most students never plan for.**
 - Verified all financial columns as correct numeric format
 - Confirmed zero duplicate records
 - Standardised all monetary values to USD
+![image description](https://github.com/afodunrinbikunmi-data/Cost_International_Education_Analysis/blob/main/power%20query%20cost%20of%20international%20education.png)
 - Engineered 5 calculated columns in Excel:
   - **`Total Cost`** — Tuition + (Rent×12×Duration) + (Insurance×Duration) + Visa
   - **`Cost Per Year`** — Total Cost ÷ Duration Years
   - **`Total Rent`** — Full accommodation cost across program duration
   - **`Non-Tuition Cost`** — Total Cost minus Tuition
   - **`Tuition Percentage`** — Tuition as % of Total Cost
+![image description](https://github.com/afodunrinbikunmi-data/Cost_International_Education_Analysis/blob/main/column%20cost%20of%20education.PNG)
 
 ## Data Modeling
 This project uses a single flat table structure no relational joins required. All DAX measures were built in a dedicated measures table in Power BI and calculated directly from the enriched dataset. Key measures include 
@@ -93,7 +95,9 @@ The Power BI dashboard contains 3 report pages:
 - **Global Overview**: KPIs, cost by country, world map, cost per year comparison
 ![image description](https://github.com/afodunrinbikunmi-data/Cost_International_Education_Analysis/blob/main/Global%20Overview%20Edu%20Dashboard%201.png)
 - **Cost Structure**: Tuition vs Non-Tuition, degree level analysis, rent by country, scatter
-- **City Intelligence**: Top 10 expensive cities, Top 10 affordable cities, full data table |
+![image description](https://github.com/afodunrinbikunmi-data/Cost_International_Education_Analysis/blob/main/Cost%20Structure%20Edu%20Dashboard%201.png)
+- **City Intelligence**: Top 10 expensive cities, Top 10 affordable cities, full data table
+![image description](https://github.com/afodunrinbikunmi-data/Cost_International_Education_Analysis/blob/main/City%20Intelligence%20Dashboard%201.png)
 
 ## Project Structure
 
