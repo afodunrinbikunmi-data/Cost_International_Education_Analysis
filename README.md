@@ -10,11 +10,11 @@ The remaining 73% funds hidden costs that most students never plan for.**
 ## Dataset Overview
 | Field | Detail |
 |---|---|
-| Universities | 622 institutions |
-| Countries | 71 nations |
-| Degree Levels | Bachelor's, Master's, PhD |
-| Currency | All values standardised to USD |
-| Source | Cost of International Education Dataset (Kaggle) |
+| **Universities** | 622 institutions |
+| **Countries** | 71 nations |
+| **Degree Levels** | Bachelor's, Master's, PhD |
+| **Currency** | All values standardised to USD |
+| **Source** | Cost of International Education Dataset (Kaggle) |
 
 **Period:** 2024 – 2025 Academic Year  
 **Coverage:** 71 Countries across 6 Continents and 622 Accredited Universities.
@@ -22,22 +22,22 @@ The remaining 73% funds hidden costs that most students never plan for.**
 ## Key Columns in the Dataset
 | Column | Description |
 |---|---|
-| Country / City / University | Geographic and institutional identifiers |
-| Program / Level / Duration_Years | Academic program details |
-| Tuition_USD | Total tuition for entire program |
-| Rent_USD | Average monthly accommodation cost |
-| Insurance_USD | Annual health/student insurance |
-| Visa_Fee_USD | One-time visa application fee |
-| Living_Cost_Index | Cost of living vs New York City baseline (100) |
-| Exchange_Rate | Local currency units per USD |
+| **Country / City / University** | Geographic and institutional identifiers |
+| **Program / Level / Duration_Years** | Academic program details |
+| **Tuition_USD** | Total tuition for entire program |
+| **Rent_USD** | Average monthly accommodation cost |
+| **Insurance_USD** | Annual health/student insurance |
+| **Visa_Fee_USD** | One-time visa application fee |
+| **Living_Cost_Index** | Cost of living vs New York City baseline (100) |
+| **Exchange_Rate** | Local currency units per USD |
 
 ## Tools Used
 | Tool | Purpose |
 |---|---|
-| Microsoft Excel | Data cleaning, feature engineering, PivotTable analysis |
-| Power Query | Encoding error resolution, data type verification |
-| Microsoft Power BI | DAX measures, interactive 3-page dashboard |
-| DAX | Custom cost measures and aggregations |
+| **Microsoft Excel** | Data cleaning, feature engineering, PivotTable analysis |
+| **Power Query** | Encoding error resolution, data type verification |
+| **Microsoft Power BI** | DAX measures, interactive 3-page dashboard |
+| **DAX** | Custom cost measures and aggregations |
 
 ## Data Cleaning & Preparation
 - Re-imported dataset via Power Query to resolve City column encoding errors
@@ -45,21 +45,21 @@ The remaining 73% funds hidden costs that most students never plan for.**
 - Confirmed zero duplicate records
 - Standardised all monetary values to USD
 - Engineered 5 calculated columns in Excel:
-  - `Total Cost` — Tuition + (Rent×12×Duration) + (Insurance×Duration) + Visa
-  - `Cost Per Year` — Total Cost ÷ Duration Years
-  - `Total Rent` — Full accommodation cost across program duration
-  - `Non-Tuition Cost` — Total Cost minus Tuition
-  - `Tuition Percentage` — Tuition as % of Total Cost
+  - **`Total Cost`** — Tuition + (Rent×12×Duration) + (Insurance×Duration) + Visa
+  - **`Cost Per Year`** — Total Cost ÷ Duration Years
+  - **`Total Rent`** — Full accommodation cost across program duration
+  - **`Non-Tuition Cost`** — Total Cost minus Tuition
+  - **`Tuition Percentage`** — Tuition as % of Total Cost
 
 ## Data Modeling
 This project uses a single flat table structure no relational joins required. All DAX measures were built in a dedicated measures table in Power BI and calculated directly from the enriched dataset. Key measures include 
-- Avg Total Cost
-- Avg Cost Per Year
-- Avg Tuition
-- Avg Non-Tuition Cost
-- Avg Rent, Avg Tuition %
-- Total Countries
-- Total Universities
+- **Avg Total Cost**
+- **Avg Cost Per Year**
+- **Avg Tuition**
+- **Avg Non-Tuition Cost**
+- **Avg Rent, Avg Tuition %**
+- **Total Countries**
+- **Total Universities**
 
 ## Key Questions & Analysis
 1. Which countries offer the most affordable total cost of study?
@@ -81,18 +81,16 @@ This project uses a single flat table structure no relational joins required. 
 - **Geography beats all other variables** — location determines cost more than degree type
 
 ## Recommendations
-1. Plan around monthly burn rate, not tuition headline — Germany costs more monthly than Malaysia
-2. Target second-tier cities and regional value hubs — save $50K–$180K without sacrificing quality
-3. Secure housing before departure — rent is 64% of the budget and the most volatile variable
+1. **Plan around monthly burn rate, not tuition headline** — Germany costs more monthly than Malaysia
+2. **Target second-tier cities and regional value hubs** — save $50K–$180K without sacrificing quality
+3. **Secure housing before departure** — rent is 64% of the budget and the most volatile variable
 
 ## Dashboard / Visualization
 The Power BI dashboard contains 3 report pages:
 
-| Page | Focus |
-|---|---|
-| Global Overview | KPIs, cost by country, world map, cost per year comparison |
-| Cost Structure | Tuition vs Non-Tuition, degree level analysis, rent by country, scatter |
-| City Intelligence | Top 10 expensive cities, Top 10 affordable cities, full data table |
+- **Global Overview**: KPIs, cost by country, world map, cost per year comparison
+- **Cost Structure**: Tuition vs Non-Tuition, degree level analysis, rent by country, scatter
+- **City Intelligence**: Top 10 expensive cities, Top 10 affordable cities, full data table |
 
 ## Project Structure
 
@@ -116,4 +114,4 @@ I am a Certified Data Analyst with a strong passion for transforming raw data in
 
 Data Analyst | Excel | Power BI | Python | SQL | Figma
 
-Connect With Me On - [LinkedIn](https://www.linkedin.com/in/akinkunmiafod) | [Medium](https://medium.com/@afodunrinbikunmi) | [Gmail](afodunrinbikunmi@gmail.com)
+Connect With Me On - [LinkedIn](https://www.linkedin.com/in/akinkunmiafod) | [Medium](https://medium.com/@afodunrinbikunmi) | Gmail: afodunrinbikunmi@gmail.com
