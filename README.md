@@ -55,13 +55,14 @@ The remaining 73% funds hidden costs that most students never plan for.**
 
 ## Data Modeling
 This project uses a single flat table structure no relational joins required. All DAX measures were built in a dedicated measures table in Power BI and calculated directly from the enriched dataset. Key measures include 
-- **Avg Total Cost**
-- **Avg Cost Per Year**
-- **Avg Tuition**
-- **Avg Non-Tuition Cost**
-- **Avg Rent, Avg Tuition %**
-- **Total Countries**
-- **Total Universities**
+- **Avg Total Cost**: AVERAGE(‘Education’[Total_Cost])
+- **Avg Cost Per Year**: AVERAGE(‘Education’[Cost_Per_Year])
+- **Avg Tuition**: AVERAGE(‘Education’[Tuition_USD])
+- **Avg Non-Tuition Cost**: AVERAGE(‘Education’[Non_Tuition_Cost])
+- **Avg Rent**: AVERAGE(‘Education’[Total_Rent])
+- **Avg Tuition %**: AVERAGE(‘Education’[Tuition_Percentage])
+- **Total Countries**: DISTINCTCOUNT(‘Education’[Country])
+- **Total Universities**: DISTINCTCOUNT(‘Education’[University])
 
 ## Key Questions & Analysis
 1. Which countries offer the most affordable total cost of study?
