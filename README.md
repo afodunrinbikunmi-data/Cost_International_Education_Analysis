@@ -88,6 +88,8 @@ This project uses a single flat table structure no relational joins required. 
 ## Dashboard / Visualization
 The Power BI dashboard contains 3 report pages:
 
+![image description](https://github.com/afodunrinbikunmi-data/Cost_International_Education_Analysis/blob/main/CIE%20DASHBOARD%20.png)
+
 - **Global Overview**: KPIs, cost by country, world map, cost per year comparison
 - **Cost Structure**: Tuition vs Non-Tuition, degree level analysis, rent by country, scatter
 - **City Intelligence**: Top 10 expensive cities, Top 10 affordable cities, full data table |
