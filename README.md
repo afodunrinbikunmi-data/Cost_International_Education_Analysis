@@ -83,11 +83,6 @@ This project uses a single flat table structure no relational joins required. 
 - **North Africa dominates affordability** — Tunisia and Algeria lead the value tier
 - **Geography beats all other variables** — location determines cost more than degree type
 
-## Recommendations
-1. **Plan around monthly burn rate, not tuition headline** — Germany costs more monthly than Malaysia
-2. **Target second-tier cities and regional value hubs** — save $50K–$180K without sacrificing quality
-3. **Secure housing before departure** — rent is 64% of the budget and the most volatile variable
-
 ## Dashboard / Visualization
 The Power BI dashboard contains 3 report pages:
 
@@ -99,6 +94,18 @@ The Power BI dashboard contains 3 report pages:
 ![image description](https://github.com/afodunrinbikunmi-data/Cost_International_Education_Analysis/blob/main/Cost%20Structure%20Edu%20Dashboard%201.png)
 - **City Intelligence**: Top 10 expensive cities, Top 10 affordable cities, full data table
 ![image description](https://github.com/afodunrinbikunmi-data/Cost_International_Education_Analysis/blob/main/City%20Intelligence%20Dashboard%201.png)
+
+## Conclusion
+- **Cost Drivers Beyond Tuition**: Demonstrated that total study abroad expenditures are primarily dictated by geography and accommodation costs rather than tuition fees alone.
+- **Arbitrage of Geographic Flexibility**: Identified that strategic destination selection (e.g., Malaysia, Tunisia) offers greater financial savings than most premium scholarships or bursaries.
+- **High-Value Alternative Markets**: Quantified the ability to access quality higher education at 5% to 15% of the cost of traditional hubs (US/Germany) without compromising academic or career outcomes
+
+## Recommendations
+1. **Plan around monthly burn rate, not tuition headline** — Germany costs more monthly than Malaysia
+2. **Target second-tier cities and regional value hubs** — save $50K–$180K without sacrificing quality
+3. **Secure housing before departure** — rent is 64% of the budget and the most volatile variable
+
+
 
 ## Project Structure
 
